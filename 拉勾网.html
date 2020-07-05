@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML5</title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			P,h1,h2,h3,h4,h5,h6,dl,dd,dt,ul,li,ol{margin: 0px;padding: 0px;}
+			li{list-style: none;}
+			a{text-decoration: none;}
+			img{display: block;}
+			.mian{
+				width: 1400px;
+				margin: 0 auto;}
+			.fl{float: left;}
+			.fr{float: right;}
+			
+			.clearFixed:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			.header{
+				height: 214px;
+				background-color: #00b38a;
+		
+			}
+			.header .h_first{
+				height: 65px;
+				
+			}
+			.header .h_second{
+				height: 45px;
+				background-color:#32373e;
+				line-height: 45px;
+			}
+			.header .h_second .second{margin: 0 auto;height: 45px;width: 1400px;}
+			.header .h_second .second .h_second_left{
+				height: 45px;
+				width: 600px;
+				float: left;
+			}
+			.header .h_second .second .h_second_left .Textleft1{
+				float: left;
+				height:45px ;
+			}
+			.header .h_second .second .h_second_left .Textleft1 a:first-child{
+				font-size: 22px;
+				color: #00b38a;
+			}
+			.header .h_second .second .h_second_left .Textleft2{
+				float: left;
+				height:45px
+			}
+			.header .h_second .second .h_second_left .Textleft2 li{
+				float: left;
+				margin: 0 15px;
+			}
+			.header .h_second .second .h_second_left .Textleft2 li a{
+				font-size: 15px;
+				color: #FFFFFF
+			}
+			.header .h_second .second .h_second_right{
+				height: 45px;
+				width: 600px;
+				float: right;
+			}
+			.header .h_second .second .h_second_right .Textright li{
+				float: left;
+				margin: 0 15px;
+			}
+			.header .h_second .second .h_second_right .Textright li a{
+				font-size: 15px;
+				color: white;
+			}
+			.header .h_third{
+				margin: 0 auto;height: 104px;width: 1400px;
+			}
+			
+			.header .h_third .third1 .third_h_left{
+				position: relative;
+				width:600px;
+				height:104px ;
+				background-color: #00b38a;}
+			
+			.header .h_third .third1 .third_h_left .img1{
+				position: absolute;
+				top: 10px;
+				left: 40px;
+				width: 150px;
+				height: 92px;
+				
+			}	
+			.header .h_third .third1 .third_h_left .img2{
+				position: absolute;
+				top: 32px;
+				left: 210px;
+				width: 280px;
+				height: 30px;
+			}	
+			.header .h_third .third1 .third_h_left p{
+				position: absolute;
+				top: 65px;
+				left: 210px;
+				color: white;
+			}
+			
+		.header .h_third .third2 .third_h_right{
+			position: relative;
+			width:600px;
+			height:104px ;
+			background-color: #00b38a;
+		}
+		.header .h_third .third2 .third_h_right .btu{
+			position: absolute;
+			top: 52px;
+			left: 32px;
+			margin-top: -18px;	
+			height: 36px;
+			background-color:white;
+		}
+		.header .h_third .third2 .third_h_right .btu .txt1{
+			height: 100%;
+		}
+		.header .h_third .third2 .third_h_right .btu .1{
+			padding: 0 15px;
+		}
+		.header .h_third .third2 .third_h_right .btu .btuone{
+			height: 100%;
+			background-color:white;
+		}
+		.header .h_third .third2 .third_h_right .btu .btuone .txt2{
+			color:#37c3a3;
+			line-height: 36px;
+		}
+		
+		.header .h_third .third2 .third_h_right .btu .txt3{
+			height: 100%;
+			background-color: white;
+		}
+		.sear{background-color: #F2F5F4;
+		height: 132px;
+		}
+		.sear .searCon{
+		height: 102px;	
+		width: 1400px;
+		padding-top: 30px;
+		}
+		.sear .searCon .search {
+			height: 40px;
+			width: 937px;
+			background-color: springgreen;
+			margin-left: 133px;
+		}
+		.sear .searCon .search .searchInp{
+			font-size: 14px;
+			height: 46px;
+			width: 794px;
+			border: 1px solid ;
+			float: left;
+			
+
+		}
+		.sear .searCon .search .searcha{
+			font-size: 18px ;
+			height: 48px;
+			width: 140px;
+			background-color: #00b38a;
+			line-height: 46px;
+			text-align: center;
+			color: white;
+		}
+		.searCon .searList {
+		     margin-left: 133px;
+			 font-size:15px ;
+			 height: 35px;
+			 line-height: 35px;
+			 padding-top: 10px;
+			 
+			 }
+		
+		.searCon .searList li{
+			float: left;
+		}
+		.searCon .searList li:first-child a{
+			color: #778ab9;
+			padding: 0;
+		}
+		.searCon .searList li a{
+			color:#00b38a ;
+			padding: 0 11px;	
+		}
+		.banner .bannCon{
+			height: 430px;
+			padding-top: 40px;
+		}
+		.bannCon .banleft{
+			width: 340px;
+			height: 430px;
+		}
+		
+		.bannCon .banleft .banList{
+			font-size: 12px;
+			
+		}
+		.bannCon .banleft .banList li{
+			margin-bottom: 34px;
+		}
+		.bannCon .banleft .banList li span{
+			font-family: "宋体";
+			color: #555555;
+			padding-top: 5px;
+			
+		
+		}
+		.bannCon .banleft .banList li a{
+			color: #5555555;
+			padding: 0 13px;
+		}
+		.bannCon .banleft .banList li a:first-child {
+			font-size:17px ;
+			padding: 0px;
+		}
+		.bannCon .banright{
+			position: relative;
+			width: 930px;
+			height: 385px;
+		}
+		.bannCon .banright .banImgeBox{
+			
+			width: 930px;
+			height: 385px;
+		}
+		.bannCon .banright .banImgeBox .banimge{
+			height: 100%;
+			width: 100%;
+		}
+		.bannCon .banright:hover span{
+			display: block;
+		}
+		.bannCon .banright span{
+			position: absolute;
+			top: 50%;
+			margin-top:-15px ;	
+			height: 30px;
+			width: 40px;
+			font-family: "宋体";
+			font-size: 40px;
+			color: #555555;
+			display: none;
+		}
+		.bannCon .banright .left{
+			left: 20px;
+		}
+		.bannCon .banright .right{
+			right: 120px;
+		}
+		.content .line1 .linetop{
+			height: 124px;
+		}
+		.content .line1 .linetop .top1{
+			height: 53px;
+			border-bottom: 1px solid #555555;
+		}
+		.top1 .top{
+			height:53px ;
+			line-height: 53px;
+			border-bottom: 2px solid #999;
+			padding-bottom: 15px;
+			font-size: 20px;	
+		}
+		.top1 .new{
+			color: #999;
+			padding: 0 28px;	
+		}
+		.linetop .top2{
+			height: 60px;
+			margin-top: 25px;
+			font-size: 15px;
+		}
+		.linetop .top2 .txt1{
+			color:#e6e6e6 ;
+			margin: 0 12px
+		}
+		.linetop .top2 .txt2{
+			margin: 0 20px;
+		}
+		
+		.linetop .top2 span{
+			background-color: #e6e6e6;
+			color: #FFFFFF;
+			border-radius: 50%;
+			height: 20px;
+			width: 20px;
+			text-align: center;
+		}
+		
+		.line1 .conUl li .conBox{
+			position: relative;
+			width: 424px;
+			height: 250px;
+			border: 1px solid #f5f7f7;
+			padding: 0 20px;
+		}
+		.conBox .job {
+			position: absolute;
+			top: 24px;
+			left: 22px;
+		}
+		
+		.conBox .job .jobtext{
+			font-size: 20px;
+			padding: 0 5px;
+		}
+		.conBox .job .time{
+			font-size: 20px;
+			padding: 0 5px;
+		}
+		.conBox .job .salary{
+			font-size: 22px;
+			color: red;
+			padding: 0 50px;
+		}
+		.conBox .jobtext2 span{
+			position: absolute;
+			top: 65px;
+			left: 22px;
+			font-size: 20px;
+			color: #777;
+		}
+		.conBox .jobtext3{
+			position: absolute;
+			top:105px;
+			left: 22px;
+			text-align: center;
+			border-bottom: 2px dotted #fcfcfc;
+			width: 400px;
+			padding-bottom: 15px;
+		}
+		.conBox .jobtext3 .but1{
+			height: 30px;
+			width: 80px;
+			margin: 0px 50px 0px 0px;
+			border: 1px #777 solid ;
+			padding-bottom: 10px;
+		}
+		.conBox .jobtext3 .but2{
+			height: 30px;
+			width: 80px;
+			border: 1px #777 solid ;
+		}
+		.conBox .imgBox{
+			position: absolute;
+			top: 180px;
+			left: 22px;
+		}
+		.conBox .imgBox img{
+			height: 40px;
+			width: 40px;
+		}
+		.conBox .txt{
+			position: absolute;
+			top: 180px;
+			left: 80px;
+		}
+		.content .line1 .conUl li .conBox :nth-of-type(2){
+		}
+		.content .line1 .more{
+			width: 460px;
+			height: 42px;
+			border: 1px solid #00B38A;
+			margin: 15px auto;
+			text-align: center;
+			line-height: 42px;
+			font-size:20px ;
+			color: #00B38A;
+		}
+		.content1{
+			background-color: white;	
+		}
+		.conbox{
+			position: relative;
+			height: 380px;
+			width: 340px;
+			text-align: center;
+			border: 1px solid #999;
+		}
+		.conbox .txt1{
+			font-size:20px ;
+			margin-top: 12px;
+		}
+		.conbox .txt2{
+			margin-top: 10px;
+			color: #999;
+		}
+		.conbox .txt3{
+			margin-top: 10px;
+			border-bottom: 1px dashed #999;
+			padding-bottom: 16px;
+		}
+		.conbox .img{
+			margin: 0 auto;
+			padding-top: 20px;		
+			height: 160px;
+			width: 160px;
+			
+		}
+		.conbox .listCox{
+			width: 300px;
+			margin: 0 auto;
+			font-size: 12px;
+			color:  #999;
+		}
+		.conbox .listCox p{
+			color: #00B38A;
+		}
+		.conbox .listCox .box1{
+			margin-top:20px ;
+			text-align: center;
+			width: 78px;
+		}
+		.conbox .listCox .box1:nth-child(1){
+			margin-left: 10px;
+		}
+		.conbox .listCox .box1:nth-child(2){
+			border-left: 1px solid #999 ;
+			border-right:1px solid #999 ;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		.content1 .lala .conbox:nth-child(1){
+			margin-left: 0px;
+		}
+		
+		.content1 .lala .conbox:nth-child(5){
+			margin-left: 0px;
+		}
+		.content1 .lala .conbox {
+			margin: 0 4.2px;
+		}
+	
+		.content1 .lala .More {
+			width: 460px;
+			height: 42px;
+			border: 1px solid #00B38A;
+			margin: 15px 475px;
+			text-align: center;
+			line-height: 42px;
+			font-size:20px ;
+			color: #00B38A;
+		}
+		.content2{
+			height: 120px;
+			border-bottom: 1px solid #777777;
+		}
+		.content2 .linetop .top1 .topp{
+			font-size: 20px;
+			margin-left: 30px;	
+		};
+		
+		
+		.footer{
+			background: black;
+			height: 100px;
+			
+		
+		}
+		/* .footer .left .btnApp{
+			margin-top: 100px;
+			background: pink;
+			width: 180px;
+			height: 44px;
+			border: 1px solid #00B38A;
+			
+		} */
+		</style>
+		
+		
+	</head>
+	<body  style="height: 9000px;">
+		<div id="box"> 
+			<div class="header">
+				<div class="h_first">
+					<img src="img/拉勾网/header.jpg" width="100%" height="100%">
+				</div>
+				<div class="h_second">
+					<div class="second clearFixed">
+						<div class="h_second_left clearFixed">
+							<div class="Textleft1 " >
+								<a href="" style="margin:0 25px;">拉钩</a>
+								<a href="" style="color:#00b38a;font-size: 15px;">全国站</a>
+								<a href="" style="color:#FFFFFF;font-size: 15px;">[切换城市]</a>
+							</div>
+							<div class="Textleft2 clearFixed " >
+								<ul>
+									<li> <a href="#">首页</a></li>
+									<li> <a href="#">公司</a></li>
+									<li> <a href="#">校园招聘</a></li>
+									<li> <a href="#">言职</a></li>
+									<li> <a href="#">课程</a></li>		
+								</ul>
+								
+							</div>
+						</div>		
+						<div class="h_second_right">
+							<div class="Textright" >
+								<ul>
+									<li> <a href="#">上传简历</a></li>
+									<li> <a href="#">职位订阅</a></li>
+									<li> <a href="#">登录</a></li>
+									<li> <a href="#">注册</a></li>
+									<li> <a href="#">拉钩APP</a></li>		
+									<li> <a href="#">进入企业版</a></li>	
+								</ul>
+								
+							</div>
+						
+						</div>
+					</div>
+					
+					
+			</div>
+				<div class="h_third clearFixed">
+					<div class="third1 fl clearFixed">
+						<div class="third_h_left fl clearFixed">
+							<img src="img/拉勾网/people.png" class="img1 fl">
+							<img src="img/拉勾网/2.png" class="img2 fr" >
+							<p class="content">935153家公司 | 7287676个职位，在拉勾等你</p>
+						</div>
+					</div>
+					<div class="third2 fr">
+						<div class="third_h_right ">
+							<div class="btu clearFixed">
+								<div class="1">
+									<input type="text" placeholder="请输入手机号" class="txt1 fl"/>
+								</div>
+							
+								<div class="btuone fl">
+									<input type="text" placeholder="请输入验证码" />
+									<a href="" class="txt2">| 获取</a>
+								</div>
+								<input type="submit" value="注册/登录" class="txt3 fl"/>
+							</div>	
+						</div>
+					</div>	
+				</div>
+			
+			</div>
+			<div class="sear">
+				<div class="searCon mian ">
+					<div class="search clearFixed">
+						<input type="text" placeholder="搜索职位, 公司和地点"class="searchInp fl" />
+						<a href="" class="searcha fl">搜索</a>
+					</div>
+					<ul class="searList clearFixed">
+						<li> <a href="">热门搜索：</a></li>
+						<li> <a href="">腾讯产品</a></li>
+						<li> <a href="">Java面试</a></li>
+						<li> <a href="">面试分享</a></li>
+					</ul>
+					
+				</div>
+			</div>
+			<div class="banner">
+				<div class="bannCon mian clearFixed">
+					<div class="banleft fl">
+						<ul class="banList">
+							<li>
+								<a href="">技术</a>
+								<a href="">Java</a>
+								<a href="">PHP</a>
+								<a href="">区块链</a>
+								<span class="fr">&gt;</span>
+							</li>
+							<li>
+								<a href="">技术</a>
+								<a href="">Java</a>
+								<a href="">PHP</a>
+								<a href="">区块链</a>
+								<span class="fr">&gt;</span>
+							</li>
+							<li>
+								<a href="">技术</a>
+								<a href="">Java</a>
+								<a href="">PHP</a>
+								<a href="">区块链</a>
+								<span class="fr">&gt;</span>
+							</li>
+							<li>
+								<a href="">技术</a>
+								<a href="">Java</a>
+								<a href="">PHP</a>
+								<a href="">区块链</a>
+								<span class="fr">&gt;</span>
+							</li>
+							<li>
+								<a href="">技术</a>
+								<a href="">Java</a>
+								<a href="">PHP</a>
+								<a href="">区块链</a>
+								<span class="fr">&gt;</span>
+							</li>
+							<li>
+								<a href="">技术</a>
+								<a href="">Java</a>
+								<a href="">PHP</a>
+								<a href="">区块链</a>
+								<span class="fr">&gt;</span>
+							</li>
+							<li>
+								<a href="">技术</a>
+								<a href="">Java</a>
+								<a href="">PHP</a>
+								<a href="">区块链</a>
+								<span class="fr">&gt;</span>
+							</li>
+						</ul>
+	
+					</div>
+					<div class="banright fr">
+						<div class="banImgeBox">
+							<img src="img/拉勾网/banner1.png" class="banimge">
+						</div>
+						<span class="left fl">&lt</span>
+						<span class="right fr">&gt</span>
+					</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="content mian ">
+				<div class="line1">
+					<div class="linetop">
+						<div class="top1">
+							<a href="" class="top">24Hour热门</a>
+							<a href="" class="new ">最新职位</a>
+						</div>
+						<div class="top2 clearFixed">
+							<span class="fl"> ? </span>
+							<a href="" class="txt1 fl">在过去的24小时，最多人看过的岗位信息</a>
+							<a href="" class="txt2 fl">我知道了</a>
+						</div>
+					</div>
+					<ul class="conUl clearFixed">
+						<li>
+							<div class="conBox fl">
+								<p class="job clearFixed" >
+									<span class="jobtext fl">短视频策划</span>
+									<span class="time fl">[10:35发布]</span>
+									<img class="talk fl" src="img/拉勾网/聊天.png" style="height:20px;width: 20px;"  >
+									<span class="salary fl">5K-8K</span>
+								</p>
+								<p class="jobtext2 fl">
+									<span>经验1-3年/本科</span>
+								</p>
+								<p class="jobtext3 clearFixed">
+									<button type="button" class="but1 fl">广告营销</button>
+									<button type="button" class="but2 fl">视频</button>
+								</p>
+								<div class="imgBox">
+									<img src="img/拉勾网/5.png" >
+								</div>
+								<div class="txt">
+									<p class="txt11">成都瑟米互动科技有限公司</p>
+									<p class="txt22">广告营销/未融资/成都</p>
+								</div>
+							</div>
+							
+							<div class="conBox fl">
+								<p class="job clearFixed" >
+									<span class="jobtext fl">短视频策划</span>
+									<span class="time fl">[10:35发布]</span>
+									<img class="talk fl" src="img/拉勾网/聊天.png" style="height:20px;width: 20px;"  >
+									<span class="salary fl">5K-8K</span>
+								</p>
+								<p class="jobtext2 fl">
+									<span>经验1-3年/本科</span>
+								</p>
+								<p class="jobtext3 clearFixed">
+									<button type="button" class="but1 fl">广告营销</button>
+									<button type="button" class="but2 fl">视频</button>
+								</p>
+								<div class="imgBox">
+									<img src="img/拉勾网/5.png" >
+								</div>
+								<div class="txt">
+									<p class="txt11">成都瑟米互动科技有限公司</p>
+									<p class="txt22">广告营销/未融资/成都</p>
+								</div>
+							</div>
+							
+							<div class="conBox fl">
+								<p class="job clearFixed" >
+									<span class="jobtext fl">短视频策划</span>
+									<span class="time fl">[10:35发布]</span>
+									<img class="talk fl" src="img/拉勾网/聊天.png" style="height:20px;width: 20px;"  >
+									<span class="salary fl">5K-8K</span>
+								</p>
+								<p class="jobtext2 fl">
+									<span>经验1-3年/本科</span>
+								</p>
+								<p class="jobtext3 clearFixed">
+									<button type="button" class="but1 fl">广告营销</button>
+									<button type="button" class="but2 fl">视频</button>
+								</p>
+								<div class="imgBox">
+									<img src="img/拉勾网/5.png" >
+								</div>
+								<div class="txt">
+									<p class="txt11">成都瑟米互动科技有限公司</p>
+									<p class="txt22">广告营销/未融资/成都</p>
+								</div>
+							</div>
+							
+							<div class="conBox fl">
+								<p class="job clearFixed" >
+									<span class="jobtext fl">短视频策划</span>
+									<span class="time fl">[10:35发布]</span>
+									<img class="talk fl" src="img/拉勾网/聊天.png" style="height:20px;width: 20px;"  >
+									<span class="salary fl">5K-8K</span>
+								</p>
+								<p class="jobtext2 fl">
+									<span>经验1-3年/本科</span>
+								</p>
+								<p class="jobtext3 clearFixed">
+									<button type="button" class="but1 fl">广告营销</button>
+									<button type="button" class="but2 fl">视频</button>
+								</p>
+								<div class="imgBox">
+									<img src="img/拉勾网/5.png" >
+								</div>
+								<div class="txt">
+									<p class="txt11">成都瑟米互动科技有限公司</p>
+									<p class="txt22">广告营销/未融资/成都</p>
+								</div>
+							</div>
+							
+							<div class="conBox fl">
+								<p class="job clearFixed" >
+									<span class="jobtext fl">短视频策划</span>
+									<span class="time fl">[10:35发布]</span>
+									<img class="talk fl" src="img/拉勾网/聊天.png" style="height:20px;width: 20px;"  >
+									<span class="salary fl">5K-8K</span>
+								</p>
+								<p class="jobtext2 fl">
+									<span>经验1-3年/本科</span>
+								</p>
+								<p class="jobtext3 clearFixed">
+									<button type="button" class="but1 fl">广告营销</button>
+									<button type="button" class="but2 fl">视频</button>
+								</p>
+								<div class="imgBox">
+									<img src="img/拉勾网/5.png" >
+								</div>
+								<div class="txt">
+									<p class="txt11">成都瑟米互动科技有限公司</p>
+									<p class="txt22">广告营销/未融资/成都</p>
+								</div>
+							</div>
+							
+							<div class="conBox fl">
+								<p class="job clearFixed" >
+									<span class="jobtext fl">短视频策划</span>
+									<span class="time fl">[10:35发布]</span>
+									<img class="talk fl" src="img/拉勾网/聊天.png" style="height:20px;width: 20px;"  >
+									<span class="salary fl">5K-8K</span>
+								</p>
+								<p class="jobtext2 fl">
+									<span>经验1-3年/本科</span>
+								</p>
+								<p class="jobtext3 clearFixed">
+									<button type="button" class="but1 fl">广告营销</button>
+									<button type="button" class="but2 fl">视频</button>
+								</p>
+								<div class="imgBox">
+									<img src="img/拉勾网/5.png" >
+								</div>
+								<div class="txt">
+									<p class="txt11">成都瑟米互动科技有限公司</p>
+									<p class="txt22">广告营销/未融资/成都</p>
+								</div>
+							</div>
+							
+							<div class="conBox fl">
+								<p class="job clearFixed" >
+									<span class="jobtext fl">短视频策划</span>
+									<span class="time fl">[10:35发布]</span>
+									<img class="talk fl" src="img/拉勾网/聊天.png" style="height:20px;width: 20px;"  >
+									<span class="salary fl">5K-8K</span>
+								</p>
+								<p class="jobtext2 fl">
+									<span>经验1-3年/本科</span>
+								</p>
+								<p class="jobtext3 clearFixed">
+									<button type="button" class="but1 fl">广告营销</button>
+									<button type="button" class="but2 fl">视频</button>
+								</p>
+								<div class="imgBox">
+									<img src="img/拉勾网/5.png" >
+								</div>
+								<div class="txt">
+									<p class="txt11">成都瑟米互动科技有限公司</p>
+									<p class="txt22">广告营销/未融资/成都</p>
+								</div>
+							</div>
+							
+							<div class="conBox fl">
+								<p class="job clearFixed" >
+									<span class="jobtext fl">短视频策划</span>
+									<span class="time fl">[10:35发布]</span>
+									<img class="talk fl" src="img/拉勾网/聊天.png" style="height:20px;width: 20px;"  >
+									<span class="salary fl">5K-8K</span>
+								</p>
+								<p class="jobtext2 fl">
+									<span>经验1-3年/本科</span>
+								</p>
+								<p class="jobtext3 clearFixed">
+									<button type="button" class="but1 fl">广告营销</button>
+									<button type="button" class="but2 fl">视频</button>
+								</p>
+								<div class="imgBox">
+									<img src="img/拉勾网/5.png" >
+								</div>
+								<div class="txt">
+									<p class="txt11">成都瑟米互动科技有限公司</p>
+									<p class="txt22">广告营销/未融资/成都</p>
+								</div>
+							</div>
+							
+							<div class="conBox fl">
+								<p class="job clearFixed" >
+									<span class="jobtext fl">短视频策划</span>
+									<span class="time fl">[10:35发布]</span>
+									<img class="talk fl" src="img/拉勾网/聊天.png" style="height:20px;width: 20px;"  >
+									<span class="salary fl">5K-8K</span>
+								</p>
+								<p class="jobtext2 fl">
+									<span>经验1-3年/本科</span>
+								</p>
+								<p class="jobtext3 clearFixed">
+									<button type="button" class="but1 fl">广告营销</button>
+									<button type="button" class="but2 fl">视频</button>
+								</p>
+								<div class="imgBox">
+									<img src="img/拉勾网/5.png" >
+								</div>
+								<div class="txt">
+									<p class="txt11">成都瑟米互动科技有限公司</p>
+									<p class="txt22">广告营销/未融资/成都</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<p class="more">查看更多</p>
+				</div>
+			</div>
+			
+			
+			<div class="content1 mian">
+				<div class="linetop">
+					<div class="top1">
+						<a href="" class="top">互联网热门公司榜</a>
+					</div>
+					<div class="top2 clearFixed">
+						<span class="fl"> ? </span>
+						<a href="" class="txt1 fl">互联网行业实习热门企业</a>
+						<a href="" class="txt2 fl">我知道了</a>
+					</div>
+				</div>
+			
+				<div class="lala clearFixed">
+					<div class="conbox fl">
+						<div class="img">
+							<img src="img/拉勾网/meitu.png" >
+						</div>
+						<p class="txt1">美图公司</p>
+						<p class="txt2">硬件 / 上市公司</p>
+						<p class="txt3">加入美图,让工作更好玩!</p>
+						
+						<div class="listCox  clearFixed">
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class="conbox fl">
+						<div class="img">
+							<img src="img/拉勾网/meitu.png" >
+						</div>
+						<p class="txt1">美图公司</p>
+						<p class="txt2">硬件 / 上市公司</p>
+						<p class="txt3">加入美图,让工作更好玩!</p>
+						<div class="listCox clearFixed">
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class="conbox fl">
+						<div class="img">
+							<img src="img/拉勾网/meitu.png" >
+						</div>
+						<p class="txt1">美图公司</p>
+						<p class="txt2">硬件 / 上市公司</p>
+						<p class="txt3">加入美图,让工作更好玩!</p>
+						<div class="listCox clearFixed">
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							
+						</div>
+					</div>
+					
+					
+					<div class="conbox fl">
+						<div class="img">
+							<img src="img/拉勾网/meitu.png" >
+						</div>
+						<p class="txt1">美图公司</p>
+						<p class="txt2">硬件 / 上市公司</p>
+						<p class="txt3">加入美图,让工作更好玩!</p>
+						<div class="listCox clearFixed">
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							
+						</div>
+					</div>
+
+					
+					<div class="conbox fl">
+						<div class="img">
+							<img src="img/拉勾网/meitu.png" >
+						</div>
+						<p class="txt1">美图公司</p>
+						<p class="txt2">硬件 / 上市公司</p>
+						<p class="txt3">加入美图,让工作更好玩!</p>
+						<div class="listCox clearFixed">
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							
+						</div>
+					</div>
+					
+					
+					<div class="conbox fl">
+						<div class="img">
+							<img src="img/拉勾网/meitu.png" >
+						</div>
+						<p class="txt1">美图公司</p>
+						<p class="txt2">硬件 / 上市公司</p>
+						<p class="txt3">加入美图,让工作更好玩!</p>
+						<div class="listCox clearFixed">
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							
+						</div>
+					</div>
+					
+					
+					<div class="conbox fl">
+						<div class="img">
+							<img src="img/拉勾网/meitu.png" >
+						</div>
+						<p class="txt1">美图公司</p>
+						<p class="txt2">硬件 / 上市公司</p>
+						<p class="txt3">加入美图,让工作更好玩!</p>
+						<div class="listCox clearFixed">
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							
+						</div>
+					</div>
+					
+					
+					<div class="conbox fl">
+						<div class="img">
+							<img src="img/拉勾网/meitu.png" >
+						</div>
+						<p class="txt1">美图公司</p>
+						<p class="txt2">硬件 / 上市公司</p>
+						<p class="txt3">加入美图,让工作更好玩!</p>
+						<div class="listCox clearFixed">
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							<div class="box1 fl">
+								<p>225</p>
+								面试评价
+							</div>
+							
+						</div>
+					</div>
+					<div class="More fl">
+						<p class="more">查看更多</p>
+					</div>
+				
+					</div>	
+				</div>
+			<div class="content2 mian"">
+				<div class="linetop ">
+					<div class="top1">
+						<a href="" class="top">友情链接</a>
+						<a href="" class="topp">热门城市</a>
+						<a href="" class="topp">热门公司</a>
+						<a href="" class="topp">热门职位</a>
+						<a href="" class="topp">热门行业</a>
+					</div>
+					<div class="top2 clearFixed">
+						<a href="" class="txt2 fl">找工作</a>
+						<a href="" class="txt2 fl">招聘网</a>
+						<a href="" class="txt2 fl">Java课程</a>
+						<a href="" class="txt2 fl">架构课程</a>
+						<a href="" class="txt2 fl">招聘网站</a>
+						<a href="" class="txt2 fl">招聘网</a>
+						<a href="" class="txt2 fr">展开</a>
+					</div>
+				</div>
+			</div>	
+		
+				
+			</div>
+			<div class="footer">
+				
+				
+			</div>
+			
+			   
+			
+		</div>
+		
+		
+	</body>
+			
+</html>
